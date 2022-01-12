@@ -1,0 +1,15 @@
+ {
+            "id": "cfLqlfy9_T",
+            "type": "image",
+            "data": {
+                "file": {
+                    "url": "https: //i.ibb.co/hLsS2sL/blockchain.jpg",
+                    "width": 1280,
+                    "height": 719
+                },
+                "caption": "Blockchain Framework",
+                "withBorder": false,
+                "stretched": false,
+                "withBackground": false
+            }
+},

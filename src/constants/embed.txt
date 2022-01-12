@@ -1,0 +1,11 @@
+        {
+            "type": "embed",
+            "data": {
+                "service": "youtube",
+                "source": "https://www.youtube.com/embed/SSo_EIwHSd4",
+                "embed": "https://www.youtube.com/embed/SSo_EIwHSd4",
+                "width": 840,
+                "height": 472,
+                "caption": "Blockchain simply explained"
+            }
+        },
