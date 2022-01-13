@@ -11,6 +11,7 @@ const Warning = require("@editorjs/warning");
 const Marker = require("@editorjs/marker");
 const InlineCode = require("@editorjs/inline-code");
 const EditorJSStyle = require("editorjs-style");
+const CodeBox = require("@bomdi/codebox");
 
 export const tools = {
   /**

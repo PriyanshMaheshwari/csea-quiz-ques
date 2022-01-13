@@ -1,0 +1,240 @@
+{
+  "title": "Coders Catalogue",
+  "title2": "BlockChain Edition #3",
+  "color1": "teal",
+  "writer": "Khemraj Marathe, Anisha Jain",
+  "summary": "A blockchain wallet is a cryptocurrency wallet that allows users to manage different kinds of cryptocurrencies—for example, Bitcoin or Ethereum. A blockchain wallet helps someone exchange funds easily. Transactions are secure, as they are cryptographically signed. .",
+  "blocks": [
+    {
+      "id": "6TJgBw_f2c",
+      "type": "paragraph",
+      "data": {
+        "text": "So far, we have familiarized ourselves with the basic concepts of Blockchain. Let's focus on Key and Wallets now."
+      }
+    },
+    {
+      "id": "cfLqlfy9_1",
+      "type": "image",
+      "data": {
+        "file": {
+          "url": "https://backend.cseanitw.in/media/images/blogs/blockchain/bc0201.png",
+          "width": 1280,
+          "height": 719
+        },
+        "caption": "Blockchain Framework",
+        "withBorder": false,
+        "stretched": false,
+        "withBackground": false
+      }
+    },
+    {
+      "id": "JSoLTnnpF0",
+      "type": "header",
+      "data": {
+        "text": "What is a wallet?",
+        "level": 4
+      }
+    },
+    {
+      "id": "N1jTfzvqgx",
+      "type": "paragraph",
+      "data": {
+        "text": "A blockchain wallet is a cryptocurrency wallet that allows users to manage different kinds of cryptocurrencies—for example, Bitcoin or Ethereum. A blockchain wallet helps someone exchange funds easily. Transactions are secure, as they are cryptographically signed. The wallet is accessible from web devices, including mobile ones, and the privacy and identity of the user is maintained. So a blockchain wallet provides all the features that are necessary for safe and secure transactions and exchanges of funds between different parties."
+      }
+    },
+    {
+      "id": "QBpRH8eO4o",
+      "type": "paragraph",
+      "data": {
+        "text": "In the last block we learnt what is hashing and in this block we will be using our hashing knowledge."
+      }
+    },
+    {
+      "id": "cfLqlfy9_3",
+      "type": "image",
+      "data": {
+        "file": {
+          "url": "https://backend.cseanitw.in/media/images/blogs/blockchain/bc0202.png",
+          "width": 1280,
+          "height": 719
+        },
+        "caption": "Blockchain Framework",
+        "withBorder": false,
+        "stretched": false,
+        "withBackground": false
+      }
+    },
+    {
+      "id": "Xzde22xJaa",
+      "type": "header",
+      "data": {
+        "text": "Key Terms:",
+        "level": 4
+      }
+    },
+    {
+      "id": "jAR7HZW6HW",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Private Keys</b>"
+      }
+    },
+    {
+      "id": "mlwAKuXJtd",
+      "type": "paragraph",
+      "data": {
+        "text": "A secret number that allows you to spend crypto from your wallet. It is a 256-bit random number between 1 and $2^{256}$, so probability of collision is almost equal to zero."
+      }
+    },
+    {
+      "id": "byXJeKoXe9",
+      "type": "paragraph",
+      "data": {
+        "text": "How to generate your very own and secure private key? Here are the simple steps:"
+      }
+    },
+    {
+      "id": "qUtBNH3Dz8",
+      "type": "list",
+      "data": {
+        "style": "ordered",
+        "items": [
+          "Visit <a href=\"http://www.bitaddress.org\">www.bitaddress.org</a> and save the offline copy of the page.",
+          "Disconnect the internet so that no one will have access to your private key.<br>",
+          "Generate the Key using the steps given. And write it on pen paper and save it on at least three places(No other person should have access to it or your crypto can be stolen easily) And don’t lose your keys at any cost or you can be the next <a href=\"https://www.business-standard.com/article/international/a-german-programmer-has-two-guesses-to-unlock-bitcoin-worth-240-million-121011400070_1.html#:~:text=Stefan%20Thomas%2C%20a%20German%2Dborn,wallet%20that%20holds%207%2C002%20Bitcoin.\">Stefan Thomas</a><br>"
+        ]
+      }
+    },
+    {
+      "id": "TfQQfB9tkX",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Public Keys</b>"
+      }
+    },
+    {
+      "id": "dvgOk94vn9",
+      "type": "paragraph",
+      "data": {
+        "text": "Publicly shareable key that cannot be used to spend cryptos. It is generated using the private key using elliptical curve multiplication(One way function)."
+      }
+    },
+    {
+      "id": "uFQG6b-7iS",
+      "type": "paragraph",
+      "data": {
+        "text": "<i>You can share these with your friends.</i>"
+      }
+    },
+    {
+      "id": "bSYE2j5JG9",
+      "type": "header",
+      "data": {
+        "text": "Wallet Address",
+        "level": 4
+      }
+    },
+    {
+      "id": "CUUPmmHl7i",
+      "type": "paragraph",
+      "data": {
+        "text": "Wallet address is a fixed length string generated from a public key using any cryptographic hash function like SHA-256, SHA-512 from RIPEMD family."
+      }
+    },
+    {
+      "id": "pITVT6UNy_",
+      "type": "paragraph",
+      "data": {
+        "text": "But this is too long to share, right?"
+      }
+    },
+    {
+      "id": "htBPJ5uQh8",
+      "type": "paragraph",
+      "data": {
+        "text": "So this is not your final wallet address."
+      }
+    },
+    {
+      "id": "X8RBPEQERA",
+      "type": "paragraph",
+      "data": {
+        "text": "This 256-bit string again goes through a Base58Check function to become a Human Readable wallet address."
+      }
+    },
+    {
+      "id": "cfLqlfy9_T",
+      "type": "image",
+      "data": {
+        "file": {
+          "url": "https://backend.cseanitw.in/media/images/blogs/blockchain/bc0203.png",
+          "width": 1280,
+          "height": 719
+        },
+        "caption": "Blockchain Framework",
+        "withBorder": false,
+        "stretched": false,
+        "withBackground": false
+      }
+    },
+    {
+      "id": "8OaTSfkozC",
+      "type": "paragraph",
+      "data": {
+        "text": "To get visualisation of all these checkout the following video :"
+      }
+    },
+    {
+      "id": "TjAQ2lh7OX",
+      "type": "embed",
+      "data": {
+        "service": "youtube",
+        "source": "https://www.youtube.com/embed/zTHtK1ctgp0",
+        "embed": "https://www.youtube.com/embed/zTHtK1ctgp0",
+        "width": 840,
+        "height": 472,
+        "caption": "How Blockchain wallet works&nbsp;"
+      }
+    },
+    {
+      "id": "MpdjJzwxNp",
+      "type": "paragraph",
+      "data": {
+        "text": "Yayyy.. You finally generated your wallet address and are good to go with any blockchain transaction. Try to generate a wallet on any blockchain and send cryptos to your friend if you can afford. Let’s see if anyone gets BTCs in his wallet"
+      }
+    },
+    {
+      "id": "TfjMxf-Sg7",
+      "type": "paragraph",
+      "data": {
+        "text": "Don’t want to spend real money? No worries… You can enjoy spending test coins on blockchain testnets."
+      }
+    },
+    {
+      "id": "ot8joaOZ-3",
+      "type": "paragraph",
+      "data": {
+        "text": "Don’t want to spend real money? No worries… You can enjoy spending test coins on blockchain testnets."
+      }
+    },
+    {
+      "id": "qV7TsOaUfb",
+      "type": "paragraph",
+      "data": {
+        "text": "eg. <a href=\"https://faucet.ropsten.be/\">Ropsten Ethereum Faucet</a>"
+      }
+    },
+    {
+      "id": "8qXnrcW-IB",
+      "type": "paragraph",
+      "data": {
+        "text": "That’s a lot for this block... Keep exploring about keys and wallets. Till then signing off&nbsp;"
+      }
+    }
+  ],
+  "eventTags": "Coder's Catalogue, Editor's Choice",
+  "topicTags": "BlockChain",
+  "views": 0,
+  "isPublished": false,
+  "version": "1.0.0"
+}

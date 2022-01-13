@@ -1183,6 +1183,11 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
+"@bomdi/codebox@^1.0.12":
+  "integrity" "sha512-G3d4cSYYNXSRiN1LaSJn4OEf3Th+RDjZfwlPclhh94WDsFHPSQrEEEodNIq6bss0gl/sTQV8DgJpLaSihMmDQg=="
+  "resolved" "https://registry.npmjs.org/@bomdi/codebox/-/codebox-1.0.12.tgz"
+  "version" "1.0.12"
+
 "@cnakazawa/watch@^1.0.3":
   "integrity" "sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ=="
   "resolved" "https://registry.npmjs.org/@cnakazawa/watch/-/watch-1.0.4.tgz"
