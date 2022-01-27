@@ -1,0 +1,56 @@
+{
+  "title": "Talks with CSEA",
+  "title2": "COLONEL (Dr.) Rajesh Adhau",
+  "color1": "orange",
+  "color2": "green",
+  "writer": "Heena Mittal, Team CSEA",
+  "summary": "CSEA brings to you this once in a lifetime opportunity to talk to Col (Dr.) Rajesh Adhau. A Kargil war veteran, a hero of the country, his job demanded making fearless decisions with sometimes uncertain results. He did the best in the most drastic environments and took the Road Not Taken..",
+  "blocks": [
+    {
+      "id": "whsAeBPEQX",
+      "type": "header",
+      "data": {
+        "text": "Road Not Taken",
+        "level": 4
+      }
+    },
+    {
+      "id": "HDN5BLThnE",
+      "type": "paragraph",
+      "data": {
+        "text": "“Ask not what your country can do for you - ask what you can do for your country.” As students we hold the future of our country in our hands. We use our unique talents as engineers here to deliver to our nation what it deserves."
+      }
+    },
+    {
+      "id": "px8YA63Dg0",
+      "type": "paragraph",
+      "data": {
+        "text": "CSEA brings to you this once in a lifetime opportunity to talk to Col (Dr.) Rajesh Adhau. A Kargil war veteran, a hero of the country, his job demanded making fearless decisions with sometimes uncertain results. He did the best in the most drastic environments and took the Road Not Taken."
+      }
+    },
+    {
+      "id": "e2JDYLvkeA",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Watch the recording of the session:</b>"
+      }
+    },
+    {
+      "id": "85GMY5DhFS",
+      "type": "embed",
+      "data": {
+        "service": "youtube",
+        "source": "https://www.youtube.com/embed/96DW1ESeRAA",
+        "embed": "https://www.youtube.com/embed/96DW1ESeRAA",
+        "width": 840,
+        "height": 472,
+        "caption": "Road Not Taken Recording"
+      }
+    }
+  ],
+  "eventTags": "Talks With CSEA, Editor's Choice, Road Not Taken",
+  "topicTags": "Motivational, Inspiring",
+  "views": 0,
+  "isPublished": false,
+  "version": "1.0.0"
+}

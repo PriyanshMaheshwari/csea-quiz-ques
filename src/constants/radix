@@ -1,0 +1,368 @@
+{
+  "blocks": [
+    {
+      "id": "whsAeBPEQX",
+      "type": "header",
+      "data": {
+        "text": "Merge Sort",
+        "level": 4
+      }
+    },
+    {
+      "id": "HDN5BLThnE",
+      "type": "paragraph",
+      "data": {
+        "text": "Merge sort is the algorithm which follows divide and conquer approach. It repeatedly divides the array into two halves until we reach a stage where we can perform merge where the size is 1."
+      }
+    },
+    {
+      "id": "u60opxUX6V",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Best Case Time Complexity: O(nlogn)</b>"
+      }
+    },
+    {
+      "id": "-P3FBWOkKq",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Worst Case Time Complexity: O(nlogn)</b>"
+      }
+    },
+    {
+      "id": "vT-YDBtss6",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Space Complexity: O(n)</b>"
+      }
+    },
+    {
+      "id": "mwTvHB9-bQ",
+      "type": "embed",
+      "data": {
+        "service": "youtube",
+        "source": "https://www.youtube.com/embed/JSceec-wEyw",
+        "embed": "https://www.youtube.com/embed/JSceec-wEyw",
+        "width": 580,
+        "height": 320,
+        "caption": "Merge Sort"
+      }
+    },
+    {
+      "id": "MrbLCOKBiX",
+      "type": "paragraph",
+      "data": {
+        "text": "&lt;gist&gt;Khem112/1425e696f7d1c63c3bff94647a1b448d&lt;/gist&gt;"
+      }
+    },
+    {
+      "id": "ntGzTFgZsy",
+      "type": "header",
+      "data": {
+        "text": "Quick Sort&nbsp;",
+        "level": 4
+      }
+    },
+    {
+      "id": "E5XDuZZsxW",
+      "type": "paragraph",
+      "data": {
+        "text": "Quicksort is a widely used sorting algorithm which selects a specific element called “pivot” and partitions the array or list to be sorted into two parts based on this pivot that the elements lesser than the pivot are to the left of the list and the elements greater than the pivot are to the right of the list."
+      }
+    },
+    {
+      "id": "E9makHunpu",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Best Case Time Complexity: O(nlogn)</b>"
+      }
+    },
+    {
+      "id": "zy8EOURCCt",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Worst Case Time Complexity: O(n²)</b>"
+      }
+    },
+    {
+      "id": "f4w9NkMDyr",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Space Complexity: O(logn) (by the recursion stack)</b>"
+      }
+    },
+    {
+      "id": "Uaa18YLvRu",
+      "type": "embed",
+      "data": {
+        "service": "youtube",
+        "source": "https://www.youtube.com/embed/PgBzjlCcFvc",
+        "embed": "https://www.youtube.com/embed/PgBzjlCcFvc",
+        "width": 580,
+        "height": 320,
+        "caption": "Quick Sort"
+      }
+    },
+    {
+      "id": "vyU2G93RXZ",
+      "type": "paragraph",
+      "data": {
+        "text": "&lt;gist&gt;Khem112/8171b0772be500970c3338828d704966&lt;/gist&gt;"
+      }
+    },
+    {
+      "id": "qMl47QHPr0",
+      "type": "header",
+      "data": {
+        "text": "Heap Sort&nbsp;",
+        "level": 4
+      }
+    },
+    {
+      "id": "Xrr4o_7GJp",
+      "type": "paragraph",
+      "data": {
+        "text": "Heap Sort uses binary heap to sort the array where max heap is created and replacing the root with the last element of heap by maintaining the property of heap gives the array in sorted order."
+      }
+    },
+    {
+      "id": "Yx-So3HfYz",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Best Case Time Complexity: O(nlogn)</b>"
+      }
+    },
+    {
+      "id": "CzerIkIpnx",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Worst Case Time Complexity: O(nlogn)</b>"
+      }
+    },
+    {
+      "id": "Gi0xHDXKBc",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Space Complexity: O(n)</b>"
+      }
+    },
+    {
+      "id": "J3tpdaeoXw",
+      "type": "embed",
+      "data": {
+        "service": "youtube",
+        "source": "https://www.youtube.com/embed/MtQL_ll5KhQ",
+        "embed": "https://www.youtube.com/embed/MtQL_ll5KhQ",
+        "width": 580,
+        "height": 320,
+        "caption": "Heap Sort"
+      }
+    },
+    {
+      "id": "sQwjiv79by",
+      "type": "paragraph",
+      "data": {
+        "text": "&lt;gist&gt;Khem112/c84752ae9b809aff3681525b4837d31e&lt;/gist&gt;"
+      }
+    },
+    {
+      "id": "EMitFUcQx9",
+      "type": "header",
+      "data": {
+        "text": "Counting Sort&nbsp;",
+        "level": 4
+      }
+    },
+    {
+      "id": "hdHhZIlV8I",
+      "type": "paragraph",
+      "data": {
+        "text": "Counting sort is a sorting algorithm that sorts the elements of an array by counting the number of occurrences of each unique element in the array."
+      }
+    },
+    {
+      "id": "MHAEz4WyYo",
+      "type": "paragraph",
+      "data": {
+        "text": "Best Case Time Complexity: O(n+k)"
+      }
+    },
+    {
+      "id": "QBw4TByhDM",
+      "type": "paragraph",
+      "data": {
+        "text": "Worst Case Time Complexity: O(n+k)"
+      }
+    },
+    {
+      "id": "DKbWD914Um",
+      "type": "paragraph",
+      "data": {
+        "text": "Space Complexity : O(n+k)"
+      }
+    },
+    {
+      "id": "5csgddyEPQ",
+      "type": "paragraph",
+      "data": {
+        "text": "<i>where k is the range specified.</i>"
+      }
+    },
+    {
+      "id": "zl00oxme2d",
+      "type": "embed",
+      "data": {
+        "service": "youtube",
+        "source": "https://www.youtube.com/embed/7zuGmKfUt7s",
+        "embed": "https://www.youtube.com/embed/7zuGmKfUt7s",
+        "width": 580,
+        "height": 320,
+        "caption": "Counting Sort"
+      }
+    },
+    {
+      "id": "pT6WgbsaXs",
+      "type": "paragraph",
+      "data": {
+        "text": "&lt;gist&gt;Khem112/a6124c2194636c1da416190f5cef4e9b&lt;/gist&gt;"
+      }
+    },
+    {
+      "id": "whsAeBPEQX",
+      "type": "header",
+      "data": {
+        "text": "Radix Sort",
+        "level": 4
+      }
+    },
+    {
+      "id": "HDN5BLThnE",
+      "type": "paragraph",
+      "data": {
+        "text": "Radix sort is a sorting algorithm that sorts the elements by first grouping the individual digits of the same place value. Then, sort the elements according to their increasing/decreasing order."
+      }
+    },
+    {
+      "id": "zP22zaegGW",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Best Case Time Complexity: O(nk)</b>"
+      }
+    },
+    {
+      "id": "rKDjgKtFSM",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Worst Case Time Complexity: O(nk)</b>"
+      }
+    },
+    {
+      "id": "VyMWGG1D8q",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Space Complexity : O(n+k)</b>"
+      }
+    },
+    {
+      "id": "B9CWuJ4TYU",
+      "type": "paragraph",
+      "data": {
+        "text": "<i>where k is the range specified.</i>"
+      }
+    },
+    {
+      "id": "z9Wy0slabQ",
+      "type": "embed",
+      "data": {
+        "service": "youtube",
+        "source": "https://www.youtube.com/embed/nu4gDuFabIM",
+        "embed": "https://www.youtube.com/embed/nu4gDuFabIM",
+        "width": 580,
+        "height": 320,
+        "caption": "Radix Sort"
+      }
+    },
+    {
+      "id": "uHPQZ1Yoyw",
+      "type": "paragraph",
+      "data": {
+        "text": "&lt;gist&gt;Khem112/45cc88d2f8b6136b318a6cce3b56b4ea&lt;/gist&gt;"
+      }
+    },
+    {
+      "id": "A3WoXPPafy",
+      "type": "header",
+      "data": {
+        "text": "Bucket Sort",
+        "level": 4
+      }
+    },
+    {
+      "id": "eMat2_woYE",
+      "type": "paragraph",
+      "data": {
+        "text": "Bucket sort is a sorting technique in which elements are first uniformly divided into several groups called buckets. After that, elements are sorted by any sorting algorithm, and finally, it gathered the elements in a sorted manner."
+      }
+    },
+    {
+      "id": "fiQIsY0cl_",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Best Case Time Complexity: O(n+k)</b>"
+      }
+    },
+    {
+      "id": "L8FErr-uPQ",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Worst Case Time Complexity: O(n²)</b>"
+      }
+    },
+    {
+      "id": "9ptVaPnEE7",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Space Complexity: O(n)</b>"
+      }
+    },
+    {
+      "id": "X3pqOtKuei",
+      "type": "paragraph",
+      "data": {
+        "text": "<i>where k is the number of buckets.</i>"
+      }
+    },
+    {
+      "id": "ierNSreP7O",
+      "type": "paragraph",
+      "data": {
+        "text": "&lt;gist&gt;Khem112/2e6ff1f04140db6f29ee2813686359b8&lt;/gist&gt;"
+      }
+    },
+    {
+      "id": "ldN-g8Mb2p",
+      "type": "header",
+      "data": {
+        "text": "Practice time",
+        "level": 5
+      }
+    },
+    {
+      "id": "cjgTeAk_zF",
+      "type": "paragraph",
+      "data": {
+        "text": "Here is the set of questions suggested by our experts - <a href=\"https://www.notion.so/cseanitw/Questions-On-Sorting-73e7cade9c3d4946ab485fdf51ac71d7\">link</a>"
+      }
+    },
+    {
+      "id": "vcG0T9hH5L",
+      "type": "delimiter",
+      "data": {}
+    }
+  ],
+  "eventTags": "Coder's Catalogue, Codemon",
+  "topicTags": "DSA",
+  "views": 0,
+  "isPublished": false,
+  "version": "1.0.0"
+}

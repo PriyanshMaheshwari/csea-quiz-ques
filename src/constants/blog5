@@ -1,0 +1,273 @@
+{
+  "title": "Coders Catalogue",
+  "title2": "BlockChain Edition #5",
+  "color1": "teal",
+  "writer": "Khemraj Marathe, Anisha Jain",
+  "summary": "Proof of Stake takes labor work out of the mining process. Instead of time and electricity – the external resources validators are used to generate PoW – the algorithm enables miners with most coins (internal resources) to write to a blockchain’s history. The underlying principle behind PoS is that....",
+  "blocks": [
+    {
+      "id": "KOqkxO_ElO",
+      "type": "paragraph",
+      "data": {
+        "text": "We’ll talk about What is Proof of Stake, why PoS over PoW, what is dBFT and many more about consensus algorithms in this block."
+      }
+    },
+    {
+      "id": "F-iw08K96t",
+      "type": "header",
+      "data": {
+        "text": "What is Proof of Stake?",
+        "level": 4
+      }
+    },
+    {
+      "id": "iP1tB3mBCb",
+      "type": "image",
+      "data": {
+        "file": {
+          "url": "https://backend.cseanitw.in/media/images/blogs/blockchain/bc0501.png"
+        },
+        "caption": "Working of 'Proof of Stake'",
+        "withBorder": false,
+        "stretched": false,
+        "withBackground": false
+      }
+    },
+    {
+      "id": "6hWI9XWwTJ",
+      "type": "paragraph",
+      "data": {
+        "text": "Proof of Stake takes labor work out of the mining process. Instead of time and electricity – the external resources validators are used to generate PoW – the algorithm enables miners with most coins (internal resources) to write to a blockchain’s history. The underlying principle behind PoS is that the more invested a validator is in the network (the bigger stake they possess), the less likely they are to attack it, and, therefore, the more validating rights they should be given."
+      }
+    },
+    {
+      "id": "00pWiMM6Vk",
+      "type": "paragraph",
+      "data": {
+        "text": "The only cryptographic calculations involved in PoS are those establishing if a miner owns a needed amount of cryptocurrency. On Ethereum, according to its developers, a person who has 5% of all ether will be able to mine 5% of all the transactions happening on the blockchain."
+      }
+    },
+    {
+      "id": "P2olJpJiFV",
+      "type": "paragraph",
+      "data": {
+        "text": "The system will decide whose turn it is to commit a block pseudo-randomly, weighing the selection toward miners with the most coins. And it will allow more people to participate in the validating process: there would no longer be a need to purchase expensive hardware to mine."
+      }
+    },
+    {
+      "id": "CB2PFxNjFW",
+      "type": "header",
+      "data": {
+        "text": "What benefits can PoS bring to Ethereum?",
+        "level": 4
+      }
+    },
+    {
+      "id": "LIB9MkpeOf",
+      "type": "image",
+      "data": {
+        "file": {
+          "url": "https://backend.cseanitw.in/media/images/blogs/blockchain/bc0502.png"
+        },
+        "caption": "POS vs POW",
+        "withBorder": false,
+        "stretched": false,
+        "withBackground": false
+      }
+    },
+    {
+      "id": "DfsAtJFE26",
+      "type": "paragraph",
+      "data": {
+        "text": "<b><mark class=\"cdx-marker\">“Essentially, where PoW falls short, PoS is expected to thrive.”</mark></b>"
+      }
+    },
+    {
+      "id": "jkl2TUzVEh",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          "The issue of unnecessary energy wasting will be forgotten about, as no mining, in its traditional form, will take place.",
+          "No competition in solving computational puzzles will mean no demand for advanced mining hardware. Hence, more people will be encouraged to participate in the validation process.<br>",
+          "Despite reducing energy costs, by a lot, PoS will make attacks on the blockchain even more expensive. If anyone decides to buy up 51% of ether to try to alter transaction blocks, they’ll have to pay millions of dollars to get the coins (due to limited supply and increased demand ether price will be increased drastically) and then risk losing their money by destabilizing the very blockchain they’ve put their funds in. It’s hard to imagine a sane person doing that."
+        ]
+      }
+    },
+    {
+      "id": "SBuJfB40iG",
+      "type": "header",
+      "data": {
+        "text": "Delegated Byzantine Fault Tolerance",
+        "level": 4
+      }
+    },
+    {
+      "id": "stEGFfvXM6",
+      "type": "paragraph",
+      "data": {
+        "text": "<b>Delegated Byzantine Fault Tolerance</b> or DBFT for short, is yet another important consensus algorithm. Unlike proof of work or proof of stake, DBFT tries to achieve consensus by assigning roles to nodes to help coordinate consensus."
+      }
+    },
+    {
+      "id": "95Rg4iEN7v",
+      "type": "paragraph",
+      "data": {
+        "text": "The Delegated Byzantine Fault Tolerance consensus was introduced by NEO, often called the “Ethereum of China”. This Chinese blockchain plans to achieve the “smart economy” by digitising assets and providing smart contracts on the blockchain.Some major Blockchains like Neo use DBFT."
+      }
+    },
+    {
+      "id": "HrW8qBXwLf",
+      "type": "header",
+      "data": {
+        "text": "How the dBFT mechanism works(Particularly in neo)",
+        "level": 4
+      }
+    },
+    {
+      "id": "zvFQlNaLfB",
+      "type": "paragraph",
+      "data": {
+        "text": "At first glance, the dBFT consensus mechanism is similar to Delegated Proof-of-Stake. Using a voting process, NEO token holders have the right to vote for delegates. This is regardless of the amount of currency in their possession."
+      }
+    },
+    {
+      "id": "HAVWX0cnDg",
+      "type": "paragraph",
+      "data": {
+        "text": "Anyone can become a delegate, as long as he or she meets the requirements. This means a reliable internet connection, the right equipment, a validated identity, and 1,000 GAS. GAS is the reward users receive for their activity on the network. From the delegates, a speaker is chosen randomly."
+      }
+    },
+    {
+      "id": "E6ajbXcGmM",
+      "type": "paragraph",
+      "data": {
+        "text": "The speaker builds a new block from the transactions that waits to be validated. Then, the speaker sends the proposal to the elected delegates. They are expected to keep track of all the transactions and record them on the network."
+      }
+    },
+    {
+      "id": "c4qBlJPeUN",
+      "type": "paragraph",
+      "data": {
+        "text": "The delegates are free to share and compare the proposal they’ve received to test data accuracy, as well as the honesty of the speaker. The block is added to the blockchain if more than two-thirds of the delegates reach a consensus and validate it."
+      }
+    },
+    {
+      "id": "RvxITMJxKz",
+      "type": "paragraph",
+      "data": {
+        "text": "Voting in the NEO network is a process that occurs in real time."
+      }
+    },
+    {
+      "id": "vpxk3CBqVx",
+      "type": "header",
+      "data": {
+        "text": "dBFT pros:",
+        "level": 4
+      }
+    },
+    {
+      "id": "CUqCG-og9e",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          "Generating a new block on the chain takes between 15 and 20 seconds.",
+          "The transaction throughput is close to 1,000 TPS. NEO hopes to reach 100,000 TPS, which would allow the network to support large-scale commercial applications.<br>",
+          "No expenditure of energy needed (unlike the Proof-of-Work consensus algorithm).<br>",
+          "Total finality for transactions after their confirmation.<br>",
+          "There are no forks on the NEO blockchain.<br>"
+        ]
+      }
+    },
+    {
+      "id": "urT5Mt3fMS",
+      "type": "header",
+      "data": {
+        "text": "dBFT cons:",
+        "level": 4
+      }
+    },
+    {
+      "id": "CMSNF288SO",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          "As delegates need to operate under real identities to be elected, there’s no anonymity on the blockchain.",
+          "The mechanism requires regulated blockchains, which includes a certain level of centralisation (exactly what blockchains like Bitcoin and Ethereum are trying to achieve)."
+        ]
+      }
+    },
+    {
+      "id": "BcikBbWP_7",
+      "type": "header",
+      "data": {
+        "text": "Wrapping Up",
+        "level": 4
+      }
+    },
+    {
+      "id": "xhqvdtC-iz",
+      "type": "paragraph",
+      "data": {
+        "text": "With this, we've taken an in-depth look at three major consensus algorithms: proof of work, proof of stake, and DBFT."
+      }
+    },
+    {
+      "id": "R7sjYQcAsZ",
+      "type": "paragraph",
+      "data": {
+        "text": "These are some of the major consensus algorithms, but it isn't all of them. We won't go over any more consensus algorithms in detail as this is already a lot to digest at once, but it's helpful to know some others that exist. Below are a couple resources you can use to review other algorithms used to achieve consensus."
+      }
+    },
+    {
+      "id": "pzSQ_RE7W9",
+      "type": "header",
+      "data": {
+        "text": "Resources",
+        "level": 4
+      }
+    },
+    {
+      "id": "79FdP-uG_N",
+      "type": "list",
+      "data": {
+        "style": "unordered",
+        "items": [
+          "https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ<br>",
+          "https://en.wikipedia.org/wiki/Proof_of_stake<br>",
+          "Alternative Proof of stake - <a href=\"https://dailyfintech.com/2016/01/20/why-proof-of-stake-matters-for-blockchain/#content-wrapper\">link</a>",
+          "Neo's consensus Protocol - <a href=\"https://steemit.com/neo/@basiccrypto/neo-s-consensus-protocol-how-delegated-byzantine-fault-tolerance-works\">link</a>",
+          "Proof of Activity - <a href=\"https://www.coinbureau.com/blockchain/proof-of-activity-explained-hybrid-consensus-algorithm/\">link</a>",
+          "Proof of Burn - <a href=\"https://99bitcoins.com/what-is-proof-of-burn/\">link</a>"
+        ]
+      }
+    },
+    {
+      "id": "aKcXQsu-ci",
+      "type": "paragraph",
+      "data": {
+        "text": "Thanks! Hope this will be a kickstarter for your blockchain journey! Wish you all the very best!&nbsp;"
+      }
+    },
+    {
+      "id": "xPuXCaQyPX",
+      "type": "paragraph",
+      "data": {
+        "text": "Signing off!"
+      }
+    },
+    {
+      "id": "8dvLmG-UEc",
+      "type": "delimiter",
+      "data": {}
+    }
+  ],
+  "eventTags": "Coder's Catalogue, Editor's Choice",
+  "topicTags": "BlockChain",
+  "views": 0,
+  "isPublished": false,
+  "version": "1.0.0"
+}
